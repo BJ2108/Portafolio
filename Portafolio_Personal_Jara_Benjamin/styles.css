@@ -9,6 +9,7 @@ body {
     background-color: #16325B;
 }
 
+/* --------------------------  NAV  ---------------------------- */
 #navbar {
     background-color: #393E46;
     display: flex;
@@ -16,12 +17,18 @@ body {
     position: fixed;
     width: 100%;
     margin: 0;
+    z-index: 10;
 }
 
 #img-nav {
     width: auto;
     height: 50px;
 }
+
+#welcome-section, #projects, #contacts {
+  scroll-margin-top: 80px; /* Cambia 80px por la altura real de tu nav */
+}
+
 
 ul {
     list-style: none;
@@ -73,7 +80,7 @@ h2 {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 200px;
     flex-wrap: wrap;
 }
 
